@@ -13,6 +13,8 @@
 		FE2489A4229CDD5800928207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2489A3229CDD5800928207 /* Assets.xcassets */; };
 		FE2489A7229CDD5800928207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2489A5229CDD5800928207 /* LaunchScreen.storyboard */; };
 		FE2489AA229CDD5800928207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2489A9229CDD5800928207 /* main.m */; };
+		FE2489B8229CDEC400928207 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2489B7229CDEC400928207 /* TempViewController.m */; };
+		FE2489BB229CE17700928207 /* UIViewController+BarItemHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2489BA229CE17700928207 /* UIViewController+BarItemHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FE2489A6229CDD5800928207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2489A8229CDD5800928207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE2489A9229CDD5800928207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE2489B6229CDEC400928207 /* TempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		FE2489B7229CDEC400928207 /* TempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		FE2489B9229CE17700928207 /* UIViewController+BarItemHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarItemHandler.h"; sourceTree = "<group>"; };
+		FE2489BA229CE17700928207 /* UIViewController+BarItemHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarItemHandler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				FE24899B229CDD5700928207 /* AppDelegate.m */,
 				FE24899D229CDD5700928207 /* ViewController.h */,
 				FE24899E229CDD5700928207 /* ViewController.m */,
+				FE2489B6229CDEC400928207 /* TempViewController.h */,
+				FE2489B7229CDEC400928207 /* TempViewController.m */,
+				FE2489B9229CE17700928207 /* UIViewController+BarItemHandler.h */,
+				FE2489BA229CE17700928207 /* UIViewController+BarItemHandler.m */,
 				FE2489A0229CDD5700928207 /* Main.storyboard */,
 				FE2489A3229CDD5800928207 /* Assets.xcassets */,
 				FE2489A5229CDD5800928207 /* LaunchScreen.storyboard */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE24899F229CDD5700928207 /* ViewController.m in Sources */,
+				FE2489B8229CDEC400928207 /* TempViewController.m in Sources */,
 				FE2489AA229CDD5800928207 /* main.m in Sources */,
+				FE2489BB229CE17700928207 /* UIViewController+BarItemHandler.m in Sources */,
 				FE24899C229CDD5700928207 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,8 +298,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TZ958XNMU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Device_Orientation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,8 +316,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TZ958XNMU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Device_Orientation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

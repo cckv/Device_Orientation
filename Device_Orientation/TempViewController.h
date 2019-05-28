@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TempViewController.h
 //  Device_Orientation
 //
 //  Created by CCKV on 2018/5/28.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface TempViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
