@@ -19,20 +19,15 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    
-    static int i = 0;
-    
-    if (i%2==0) {
-        self.backPortrait = YES;
-        AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
-        [delegate allowRotation:YES withInterfaceOrientation:UIInterfaceOrientationLandscapeLeft];
-    }else{
+    if (self.backPortrait) {
         self.backPortrait = NO;
         AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
         [delegate allowRotation:NO withInterfaceOrientation:0];
+    }else{
+        self.backPortrait = YES;
+        AppDelegate *delegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+        [delegate allowRotation:YES withInterfaceOrientation:UIInterfaceOrientationLandscapeLeft];
     }
-    
-    i++;
 }
 
 #pragma mark - 拦截navigationItem的点击事件
